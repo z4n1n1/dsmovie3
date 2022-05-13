@@ -2,5 +2,24 @@
 
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Sans-serif;
+}
+ html, body {
+     background-color: #ddd;
+ }
+
+header{
+    background-color: #4D41C0 ;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a,a:hover {
+    text-decoration: none;
+    color: unset;
 }
